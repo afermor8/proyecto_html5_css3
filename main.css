@@ -9,7 +9,8 @@
 
 
 .fuente {
-  font-family: georgia, garamond;
+  font-family: Courier;
+  color:rgb(3, 170, 189)
 }
 
 html {
@@ -93,6 +94,7 @@ sub {
 }
 img {
   border: 0;
+  border-radius: 8px;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -274,6 +276,10 @@ body {
   line-height: 1.78;
   color: #555;
   background-color: #fff;
+  background-image: url(./assets/images/fondo2.jpeg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed; 
 }
 button,
 input,
@@ -4775,7 +4781,7 @@ button.close {
 }
 .grid-item {
   position: relative;
-  display: block;
+  display: inline-block;
 }
 .grid-item .project-description {
   opacity: 0;
@@ -4899,9 +4905,9 @@ main {
   margin-bottom: 6px;
 }
 .site-brand {
-  color: #000;
-  font-family: Cabin, Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  color: rgb(7, 129, 205);
+  font-family: Candara, Optima;
+  font-size: 20px;
   font-weight: 700;
   display: block;
   -webkit-transition: all 0.2s linear;

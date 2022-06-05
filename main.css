@@ -6,11 +6,61 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-
+#fuente2{
+  font-family: Caranda; 
+  color: rgb(0, 136, 255); 
+  font-size: 30px; 
+  margin-left: 10px;
+  text-align: center;
+  ;
+}
 
 .fuente {
   font-family: Courier;
-  color:rgb(3, 170, 189)
+  color:rgb(3, 170, 189);
+}
+
+.receta{
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: Courier;
+  line-height: 1.00;
+  font-size: 20px;
+}
+
+.ingredientes {
+  font-size: 15px;
+  font-family: Cambria;
+  border: 1px outset #000;
+  margin-left: 380px;
+  margin-right: 335px;
+}
+
+.ingredientes li{
+  list-style: none;
+  display:list-item;
+}
+
+.ingredientes li div{
+  font-family: Caranda;
+  font-style: italic;
+  vertical-align: middle;
+  width:110px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.pasos{
+  width:fit-content;
+  display:inline-block;
+  font-family: Cambria;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.imgrecipe{
+  max-width: 50%;
 }
 
 html {
@@ -22,7 +72,12 @@ body {
   margin: 0;
 }
 article,
-aside,
+aside{
+  position:relative;
+  border: 2px solid #000;
+  border-style:groove;
+  padding: 3px 8px;
+},
 details,
 figcaption,
 figure,

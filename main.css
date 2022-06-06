@@ -12,7 +12,6 @@
   font-size: 30px; 
   margin-left: 10px;
   text-align: center;
-  ;
 }
 
 .fuente {
@@ -26,14 +25,16 @@
   font-family: Courier;
   line-height: 1.00;
   font-size: 20px;
+  width:74%;
+  display: inline-block;
 }
 
 .ingredientes {
   font-size: 15px;
   font-family: Cambria;
   border: 1px outset #000;
-  margin-left: 380px;
-  margin-right: 335px;
+  margin-left: 195px;
+  margin-right: 195px;
 }
 
 .ingredientes li{
@@ -61,6 +62,22 @@
 
 .imgrecipe{
   max-width: 50%;
+}
+
+#imgcontact{
+  width: 75%;
+  margin-left: 30px;
+}
+
+.column{
+  width:25%;
+  float: right;
+  text-align: center;
+}
+
+.imgcolumn{
+  width:100%;
+  margin-bottom: 50px;
 }
 
 html {

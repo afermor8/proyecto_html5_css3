@@ -252,12 +252,18 @@ optgroup {
   font-weight: 700;
 }
 table {
-  border-collapse: collapse;
   border-spacing: 0;
+  font-size: large;
+  border: 2px outset #000;
+  padding: 5px 10px;
 }
-td,
+td{
+  font-family: Caranda;
+  padding: 5px 10px;
+},
 th {
-  padding: 0;
+  padding: 5px 10px;
+  text-align: center;
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
@@ -2557,6 +2563,7 @@ fieldset[disabled] .btn-default:hover {
   color: #fff;
   background-color: #ff6360;
   border-color: #ff6360;
+  font-size: large;
 }
 .btn-primary.focus,
 .btn-primary:focus {
